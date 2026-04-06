@@ -14,7 +14,7 @@ Project-data-science-1-main/
 │       └── Student_Depression_Dataset_Original.csv
 │
 ├── docs/ # Documentación del proyecto
-│   └── Informe SCY1101.pdf
+│   └── {Informe EA1} - SCY1101-800D.pdf
 │
 ├── notebooks/ # Jupyter notebooks del análisis
 │   ├── Fase_1_2A_setup_y_EDA.ipynb
@@ -84,7 +84,7 @@ Project-data-science-1-main/
 ## Documentación
 El informe completo del proyecto se encuentra en:
 ```bash
-docs/Informe SCY1101.pdf
+docs/{Informe EA1} - SCY1101-800D.pdf
 ```
 
 ## Cómo usar el proyecto
