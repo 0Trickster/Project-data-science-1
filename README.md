@@ -54,6 +54,9 @@ Project-data-science-1-main/
 * NumPy
 * Matplotlib / Seaborn
 * Jupyter Notebook
+* SciPy
+* Scikit-learn
+* Conda
 
 ## Flujo del proyecto
 1. Carga de datos &rarr; `src/carga.py`
