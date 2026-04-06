@@ -19,7 +19,7 @@ Project-data-science-1-main/
 ├── notebooks/ # Jupyter notebooks del análisis
 │   ├── Fase_1_2A_setup_y_EDA.ipynb
 │   ├── Fase_2B_limpieza.ipynb
-│   └── Fase_3_Codificacion_documentada.ipnyb
+│   └── Fase_3_codificación_datos.ipynb
 │   └── Fase_4_análisis_datos.ipynb
 │
 ├── outputs/
@@ -62,13 +62,19 @@ Project-data-science-1-main/
 1. Carga de datos &rarr; `src/carga.py`
 2. Limpieza &rarr; `notebooks/Fase_2B_limpieza.ipynb`
 3. EDA (Exploratory Data Analysis) &rarr; `notebooks/Fase_1_2A_setup_y_EDA.ipynb`
-4. Codificación de variables &rarr; `notebooks/Fase_3_Codificación.ipynb`
+4. Codificación de variables &rarr; `notebooks/Fase_3_codificación_datos.ipynb`
 5. Análisis final &rarr; `notebooks/Fase_4_análisis_datos.ipynb`
 6. Visualizaciones &rarr; `outputs/figures/`
 7. Reportes finales &rarr; `outputs/reports/`
 
-## Objetivo
-Analizar factores que influyen en la depresión en estudiantes, considerando variables como:
+## Objetivos
+1. Cargar los datos en un entorno virtual y asegurar su correcta manipulación.
+
+2. Realizar análisis exploratorio (EDA) para identificar valores nulos, incorrectos o outliers. Posteriormente realizar la limpieza de los datos para su uso en fases posteriores.
+
+3. Preparar los datos para ser utilizados en un modelo de Machine Learning (ML), aplicando técnicas de transformación avanzada como `OneHotEncoder` o `StrandartScaler`.
+
+4. Analizar factores que influyen en la depresión en estudiantes, considerando variables como:
 * Presión académica
 * Horas de sueño
 * Alimentación
